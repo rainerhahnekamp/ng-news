@@ -1,0 +1,1 @@
+alter table Episode change Name Name varchar(150) not null;
