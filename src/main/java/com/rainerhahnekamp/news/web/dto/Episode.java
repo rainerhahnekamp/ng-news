@@ -5,10 +5,9 @@ import lombok.Data;
 @Data
 @AllArgsConstructor
 public class Episode {
-
-    public Episode() {}
-
     private Long id;
     private String name;
     private String content;
+    private String imageSrc;
+    public Episode() {}
 }

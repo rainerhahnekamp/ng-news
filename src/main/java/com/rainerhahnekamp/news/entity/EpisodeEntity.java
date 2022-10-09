@@ -1,6 +1,8 @@
 package com.rainerhahnekamp.news.entity;
 
-import lombok.*;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.RequiredArgsConstructor;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -21,5 +23,6 @@ public class EpisodeEntity {
     private String name;
     private Date publishedDate;
     private String content;
+    private String imageSrc;
 
 }
