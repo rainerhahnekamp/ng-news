@@ -1,0 +1,3 @@
+- AI should be able to generate Shorts
+- AI should auto-translate info cards
+- AI should also automatically provide the different language things and sync the subtitles.
